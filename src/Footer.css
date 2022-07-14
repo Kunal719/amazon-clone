@@ -1,0 +1,44 @@
+/* 232F3E */
+
+.footer {
+    width:100%;
+    background-color: #232F3E;
+    z-index: 2;
+    color: white;
+    align-items: center;
+    min-width: fit-content;
+    margin-top: -8.5px;
+}
+
+.footer_column{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 0.25;
+    padding: 50px 5px;
+    margin: 0px 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.footer_column_title {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.content > li{
+   list-style: none;
+   font-size: 14px;
+   color: #DDD;
+   margin: 5px 0;
+}
+
+.amazon_logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+}
+.amazon_logo > img {
+    width: 100px;
+}
