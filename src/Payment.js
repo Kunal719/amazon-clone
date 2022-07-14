@@ -34,7 +34,7 @@ const Payment = () => {
     getClientSecret();
   }, [cart]);
 
-  console.log('Client Secret is', clientSecret);
+  // console.log('Client Secret is', clientSecret);
 
   const stripe = useStripe();
   const elements = useElements();
